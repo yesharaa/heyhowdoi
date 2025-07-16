@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('gradiebr.jpg');
+  background-color: #f7efda;
+  font-family: sans-serif;
+}
+
+.container-desktop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-box {
+  width: 300px;
+  height: 300px;
+  border-radius: 12px;
+  object-fit: cover;
+  background-color: #efaca5;
+  box-shadow: 11px 10px 25px 3px rgba(250,250,250,0.75);
+  -webkit-box-shadow: 11px 10px 25px 3px rgba(250,250,250,0.75);
+  -moz-box-shadow: 11px 10px 25px 3px rgba(250,250,250,0.75);
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 5px;
+  padding: 10px 20px;
+  background-color: #f283af;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 1.2rem;
+  font-family: sans-serif;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #fbd9e5;
+}
+
+.entry-box {
+  text-align: center;
+  margin-top: 30px;
+}
+
+#nameInput {
+  margin-top: 30px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  width: 200px;
+  text-align: center;
+  background-color: #ffeef2;
+  color: #ffffff;
+  box-shadow: 0 0 8px #f9c1d9;
+}

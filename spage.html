@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css">
+  <title>hey how do i say this?</title>
+</head>
+<body>
+  <div id="container">
+    <div class="header">
+  <h1>Hey,</h1>
+  <h4>How do i say this?</h4>
+</div>
+
+    <nav id="top-buttons" aria-label="Top button navigation">
+    <a href="index.html" class="btn">Go Back</a>
+    <a href="quiz.html" class="btn">Quiz</a>
+    </nav>
+
+    <main id="main-content" role="main">
+      <section id="left-column" aria-label="List section">
+      <button class="list-item" data-id="1">Cats</button>
+      <button class="list-item" data-id="2">Chicks</button>
+      <button class="list-item" data-id="3">Cow</button>
+      <button class="list-item" data-id="4">Dog</button>
+      <button class="list-item" data-id="5">Elephant</button>
+      <button class="list-item" data-id="6">Fox</button>
+      <button class="list-item" data-id="7">Frog</button>
+      <button class="list-item" data-id="8">Lion</button>
+      <button class="list-item" data-id="9">Rabbit</button>
+      <button class="list-item" data-id="10">Tiger</button>
+      </section>
+
+      <section id="right-column" aria-label="Content section">
+        <div id="text-box" tabindex="0"><p> This is how you say it!
+          <br>ฅ^>⩊<^ ฅ
+        </p></div>
+        <div id="image-box" aria-label="Image Container">
+          <img src="cats.jpg">
+        </div>
+        <div id="video-box" aria-label="Video Container">
+              <iframe id="yt-frame"
+              src="https://www.youtube.com/embed/eoAZBQsmOhw?enablejsapi=1"
+              width="100%" height="200"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen>
+          </iframe>
+        </div>
+      </section>
+    </main>
+
+    <nav id="bottom-buttons" aria-label="Bottom button navigation">
+      <a href="credits.html" class="btn-bottom">Credits</a>
+    </nav>
+  </div>
+
+  <script>
+const MATERIALS = {
+  1 : {
+        text : "This is how you say it!\n\n\"Cat\" dalam bahasa Inggris diucapkan /kæt/. Untuk mengucapkan \"cat\", mulai dengan suara \"k\" seperti pada \"kite\". Kemudian, gabungkan dengan suara \"æ\" seperti pada \"apple\", dan akhiri dengan suara \"t\" seperti pada \"top\".",
+        img  : "cats.jpg",
+        vid  : "https://www.youtube.com/embed/eoAZBQsmOhw"
+      },
+      
+  2 : {
+        text : "This is how you say it!\n\n\"Chick\" dalam Bahasa Inggris adalah /ˈtʃɪk/. Bunyinya mirip dengan \"ch\" pada \"church\", diikuti oleh \"i\" pendek seperti pada \"bit\", dan diakhiri dengan bunyi \"k\". Jadi, pengucapannya adalah \"chik\".",
+        img  : "cik.jpg",
+        vid  : "https://www.youtube.com/embed/RHydlnyNPzw"
+      },
+
+  3 : {
+        text : "This is how you say it!\n\nCara mengucapkan \"cow\" dalam bahasa Inggris adalah /kaʊ/, dengan penekanan pada bunyi \"ow\" yang merupakan diftong. Diftong adalah gabungan dua bunyi vokal dalam satu suku kata.",
+        img  : "cow.jpg",
+        vid  : "https://www.youtube.com/embed/CpJhu_pySGU"
+      },
+
+   4 : {
+        text : "This is how you say it!\n\nPengucapan \"dog\" dalam bahasa Inggris adalah /dɒɡ/. Bentuk fonetik ini menunjukkan bahwa vokal pada kata \"dog\" adalah vokal pendek, yang diucapkan dengan mulut agak terbuka, bukan bulat.",
+        img  : "doggo.jpg",
+        vid  : "https://www.youtube.com/embed/f8pTGr22Zco"
+      },
+  
+   5 : {
+        text : "This is how you say it!\n\nCara mengucapkan \"elephant\" dalam bahasa Inggris adalah /ˈɛləfənt/. Dalam Bahasa Indonesia, kata \"elephant\" diterjemahkan menjadi gajah.",
+        img  : "elepan.jpg",
+        vid  : "https://www.youtube.com/embed/AVuFi_JI6vc"
+      },
+
+   6 : {
+        text : "This is how you say it!\n\nPengucapan kata \"fox\" dalam bahasa Inggris adalah /fɒks/ (dengan huruf \"o\" seperti pada \"hot\") atau /fɑːks/ (dengan huruf \"o\" seperti pada \"father\").",
+        img  : "fox.jpg",
+        vid  : "https://www.youtube.com/embed/Yd7MVN8dxvQ"
+      },
+  
+   7 : {
+        text : "This is how you say it!\n\n\"Frog\" diucapkan seperti ini: /frɒɡ/. Bunyi \"fr\" seperti pada \"free\", \"o\" seperti pada \"hot\", dan \"g\" seperti pada \"go\". Jadi, pengucapannya adalah \"frog\".",
+        img  : "frog.jpg",
+        vid  : "https://www.youtube.com/embed/eCdofYDZCJ4"
+      },
+  
+   8 : {
+        text : "This is how you say it!\n\n\"Lion\" diucapkan seperti /ˈlaɪən/. Bunyi \"li\" seperti dalam \"lip\", dan \"on\" seperti dalam \"on\"",
+        img  : "lion.jpg",
+        vid  : "https://www.youtube.com/embed/_evAF1hsye0"
+      },
+
+   9 : {
+        text : "This is how you say it!\n\nCara mengucapkan \"rabbit\" dalam bahasa Inggris adalah /ˈræbɪt/. Di sini, /ˈ/ menandakan penekanan pada suku kata pertama. Suku kata pertama adalah seperti \"rab\" dalam bahasa Indonesia. Suku kata kedua \"bit\" diucapkan seperti saat mengucapkan \"bit\" dalam bahasa Indonesia. Jadi, gabungkan keduanya untuk mengucapkan /ˈræbɪt/ atau \"RAH-bit\".",
+        img  : "rabbit.jpg",
+        vid  : "https://www.youtube.com/embed/5s2UBbj7SoE"
+      },
+  
+  10: {
+        text : "This is how you say it!\n\nPengucapan \"tiger\" dalam bahasa Inggris adalah /ˈtaɪ.ɡər/ (tai-guh). Untuk pengucapan yang lebih jelas, Anda bisa memecahnya menjadi dua suku kata: \"ty\" seperti pada \"tie\" dan \"ger\" seperti pada \"hunger\".",
+        img  : "tiger.jpg",
+        vid  : "https://www.youtube.com/embed/VoMQm32s20I"
+      }
+};
+
+const txtBox = document.getElementById("text-box");       
+const imgTag = document.querySelector("#image-box img");  
+const ytFrame = document.getElementById("yt-frame");                  
+
+
+function swapContent(e) {
+  const id = e.currentTarget.dataset.id;
+  const data = MATERIALS[id];
+  if (!data) return;
+
+  txtBox.innerHTML = data.text.replace(/\n/g, "<br>");
+  imgTag.src = data.img;
+  ytFrame.src = data.vid + "?autoplay=1";
+}
+
+
+document.querySelectorAll(".list-item")
+        .forEach(btn => btn.addEventListener("click", swapContent));
+
+
+window.addEventListener('DOMContentLoaded', function() {
+  document.querySelector('.list-item[data-id="1"]').click();
+});
+
+</script>
+</body>
+</html>
+
+

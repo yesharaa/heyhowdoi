@@ -1,0 +1,85 @@
+body {
+     background-image: url('gradiebr.jpg');
+     background-size: 150%;
+}
+
+main {
+    width: 60%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size:3em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    background-color: #f5adc6;
+    animation: slide 2s ease-in 1, fade 2s ease in 1;
+    color: white;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    box-shadow: 11px 10px 25px 3px rgba(250,250,250,0.75);
+-webkit-box-shadow: 11px 10px 25px 3px rgba(250,250,250,0.75);
+-moz-box-shadow: 11px 10px 25px 3px rgba(250,250,250,0.75);
+}
+
+section {
+    padding: 1%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    color: #f5adc6;
+    letter-spacing: 1px;
+    box-shadow: 11px 10px 25px 3px rgba(250,250,250,0.75);
+-webkit-box-shadow: 11px 10px 25px 3px rgba(250,250,250,0.75);
+-moz-box-shadow: 11px 10px 25px 3px rgba(250,250,250,0.75);
+}
+
+section img {
+    width: 30%;
+    margin-left: 35%;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin: 6px 0;
+    background-color: #ffffff;
+    border: 2px solid #e8e8e8;
+    color: #c43670;
+    border-radius: 18px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: rgb(255, 236, 235);
+}
+
+#q2,#q3,#q4,#q5 {
+    display: none;
+}
+
+#results {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(255, 255, 255);
+    font-size: 2em;
+    text-align: center;
+    padding: 1%;
+    border-radius: 12px;
+    color:#f5adc6;
+}
+
+#results img {
+    width: 20%;
+}
+
+#q2,#q3,#q4,#q5,#results {
+ display: none;
+}
+
+    h2 {
+    font-size: 1,5em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center; 
+    }
